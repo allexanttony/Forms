@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <fieldset>
+            <legend>Área de cadastro</legend>
+
+            <form action="" method="POST">
+                
+                <label for="nome">
+                    Nome: <br>
+                    <input type="text" name="nome" placeholder="Nome"/>
+                    <br><br>
+                </label>    
+
+                <label for="sobrenome">
+                    Sobrenome: <br>
+                    <input type="text" name="sobrenome" placeholder="Sobrenome"/>
+                    <br><br>
+                </label>
+
+                <label for="sexo">
+                    Sexo: <br>
+                    <select name="sexo">
+                        <option value="1">Masculino</option>
+                        <option value="2">Feminino</option>
+                        <option value="3">Prefiro não dizer</option>
+                    </select>
+                    <br><br>
+                </label>
+
+                <label for="dt-nasc">
+                    Data de nascimento: <br>
+                    <input type="date" name="dt-nasc" placeholder="Dt nascimento" />
+                    <br><br>
+                </label>
+
+                <label for="tel">
+                Telefone: <br>
+                    <input type="tel" name="tel" placeholder="Telefone"/>
+                    <br><br>
+                </label>
+
+                <label for="email">
+                    E-mail: <br>
+                    <input type="email" name="email" placeholder="E-mail" />
+                    <br><br>
+                </label>
+
+                <label for="end">
+                    Endereço: <br>
+                    <input type="text" name="end" placeholder="endereco">
+                    <br><br>
+                </label>
+
+                <label for="termo" class="termo-user">
+                    <input type="checkbox" name="termo">
+                    Declaro que li e estou de acordo com os <a href="#" class="termos" target="blank">termos de uso</a>
+                    <br><br>
+                </label>
+                <div class="botao"> 
+                <button>Fazer cadastro</button>
+                </div>
+
+                <br><br><br><br><br><br><br><br>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
